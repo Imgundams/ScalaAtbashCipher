@@ -18,11 +18,6 @@ val main = new Main
     main.encodeString(input) shouldBe "draziw"
   }
 
-  "The given example3 input" should "return the correct string" in {
-    val input = "wizard"
-    main.encodeString(input) shouldBe "draziw"
-  }
-
   "The given example3 input with a non standard char" should "return the correct string" in {
     val input = "wizard!"
     main.encodeString(input) shouldBe "draziw!"
