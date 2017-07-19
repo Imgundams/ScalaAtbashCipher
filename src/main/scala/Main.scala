@@ -2,7 +2,7 @@
 Created by DRain on 18/07/2017.
 */
 
-class Main {
+class Cipher {
   val input = "foobar\nwizard\ngsrh rh zm vcznkov lu gsv zgyzhs xrksvi"
   val cipher: Map[Char, Char] = (('a' to 'z').toList zip ('a' to 'z').toList.reverse).toMap
 
